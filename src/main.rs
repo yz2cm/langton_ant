@@ -1,5 +1,5 @@
-use langton_ant::entity::*;
-use langton_ant::common::*;
+use langton_ant_rs::entity::*;
+use langton_ant_rs::common::*;
 
 fn main() {
     let mut ant = ant::Ant::new(unit::Direction::Left, 100, 100);
